@@ -1,0 +1,163 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #333333;
+}
+
+
+/* 
+
+font-family: 'Lobster', cursive;
+font-family: 'Overpass', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive;
+
+
+
+
+*/
+
+section {
+    padding-bottom: 100px;
+}
+
+.person,
+.my-mission,
+.develop,
+.global-community,
+.build-apps {
+    display: flex;
+}
+
+
+.half-width {
+    width: 40%;
+    margin: 0 5%;
+    height: 500px;
+    padding: 40px;
+}
+
+.half-width img {
+    width: 85%;
+    margin: 50px;
+}
+
+
+.mission {
+    width: 28%;
+    margin: 0 4%;
+    min-height: 376px;
+    padding: 30px;
+    border-radius: 26px;
+}
+
+.mission img {
+    width: 50%;
+}
+
+#mission-1 {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#mission-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#mission-3 {
+    background-color: #FFF4D6;
+}
+
+
+.develop,
+.global-community {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.develop-img,
+.global-img {
+    width: 35%;
+}
+
+
+
+.develop-doc {
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 8%;
+}
+
+.global-doc {
+    padding-top: 50px;
+    width: 50%;
+    margin-right: 8%;
+}
+
+.develop-img img,
+.global-img img {
+    width: 100%;
+}
+
+.build-apps .half-width img {
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    border-left: solid;
+    border-width: 5px;
+    border-color: #FF5959;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #13103A;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #333333;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+
+.color-highlight {
+    color: #FFAD5A;
+}
+
+.btn-highlight {
+    background-color: #FF5959;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 35px 0;
+}
+
+.center-align {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #0B0D17;
+    height: 200px;
+    text-align: center;
+}
+
+.font-highlight {
+    font-family: 'Lobster', cursive;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+small {
+    color: #D9DBE1;
+}
